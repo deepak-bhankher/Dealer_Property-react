@@ -12,7 +12,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <Link
           to="/"
-          className="text-5xl font-bold text-white  hover:text-yellow-400 cursor-pointer select-none"
+          className="text-5xl font-bold text-white hover:text-yellow-400 cursor-pointer select-none"
         >
           ESTATE
         </Link>

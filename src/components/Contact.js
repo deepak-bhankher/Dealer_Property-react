@@ -3,14 +3,14 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      {/* Contact Form Section */}
+     
       <section className="py-16 bg-gray-100">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6 mt-10">
           
-          {/* Left Side Image */}
+        
           <div className="flex justify-center">
             <img
-              src="/contact_pic.jpg"  // ✅ Put your image file in the public folder
+              src="/contact_pic.jpg"  
               alt="Contact"
               className="rounded-2xl shadow-xl w-[90%] max-w-lg"
             />

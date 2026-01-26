@@ -17,12 +17,8 @@ function App() {
   return (
     <Router>
       <div className="App font-sans">
-
-        <Navbar />
-
-       
+  <Navbar />
         <Routes>
-          
           <Route
             path="/"
             element={

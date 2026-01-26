@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/img_map.jpg"; // apni image ka sahi path yahan do
+import bgImage from "../assets/img_map.jpg"; 
 
 const AboutHighlights = () => {
   return (
@@ -44,7 +44,7 @@ const AboutHighlights = () => {
               </p>
             </div>
           </div>
-
+          
           <div className="flex items-center gap-4">
             <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center font-bold">
               04

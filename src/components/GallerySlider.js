@@ -55,7 +55,7 @@ const images = [
 
 const GallerySlider = () => {
   const [activeCategory, setActiveCategory] = useState("All");
-
+ 
   // Filter images based on selected category
   const filteredImages =
     activeCategory === "All"
@@ -64,7 +64,7 @@ const GallerySlider = () => {
 
   return (
     <div className="w-full bg-gray-900 text-white">
-      {/* Categories */}
+      {/* Categories */}   
       <div className="flex flex-wrap justify-center gap-4 py-6 px-4">
         {categories.map((category) => (
           <button

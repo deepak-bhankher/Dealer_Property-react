@@ -35,17 +35,17 @@ export const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">FROM THE BLOG</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="" className="hover:text-gray-400">
                   Making the Most of Your Small Space with Furniture
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="" className="hover:text-gray-400">
                   4 Ways to Decorate Your First Apartment on a Budget
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="" className="hover:text-gray-400">
                   How to Infuse Your Space with Natural Light
                 </a>
               </li>
@@ -62,7 +62,7 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-yellow-400">
+                <a href="/support" className="hover:text-yellow-400">
                   Support
                 </a>
               </li>
@@ -70,14 +70,14 @@ export const Footer = () => {
                 <Link to="/about" className="hover:text-yellow-400">
                   About Us
                 </Link>
-              </li>
+              </li> 
               <li>
-                <a href="#" className="hover:text-yellow-400">
+                <a href="/listing" className="hover:text-yellow-400">
                   Listing
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-yellow-400">
+                <a href="/gallery" className="hover:text-yellow-400">
                   Gallery
                 </a>
               </li>
@@ -125,19 +125,19 @@ export const Footer = () => {
             &copy; {new Date().getFullYear()} ESTATE. All rights reserved.
           </p>
           <div className="flex justify-center mt-4 space-x-5 text-xl">
-            <a href="#" className="hover:text-gray-400">
+            <a href="" className="hover:text-gray-400">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="" className="hover:text-gray-400">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="" className="hover:text-gray-400">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="" className="hover:text-gray-400">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="" className="hover:text-gray-400">
               <i className="fab fa-youtube"></i>
             </a>
           </div>
